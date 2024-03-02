@@ -252,7 +252,6 @@ p {
 
 
 
-
 .playlist-cover {
 	width: 10.5vw;
 	height: 10.5vw;
@@ -266,7 +265,7 @@ p {
 	justify-content: start;
 	gap: .3rem;
 	width: 10.5vw;
-	height: 15vw;
+	height: 14.5vw;
 	border: .5vw solid rgb(21, 22, 25);
 	background: rgb(21, 22, 25);
 	margin: .3vw;
@@ -277,8 +276,8 @@ p {
 
 .circle {
 	position: absolute;
-	width: 3.45vw;
-	height: 3.45vw;
+	width: 3.43vw;
+	height: 3.43vw;
 	border-radius: 50%;
 	background-color: transparent;
 	background-color: lawngreen;
@@ -291,15 +290,15 @@ p {
 }
 
 .triangle {
-	top: 7.41vw;
-	left: 7.21vw;
+	top: 7.6vw;
+	left: 7.37vw;
 	/* 	z-index: 4; */
 	position: absolute;
 	width: 0;
 	height: 0;
-	border-left: .9vw solid transparent;
-	border-right: .9vw solid transparent;
-	border-bottom: 1.4vw solid black;
+	border-left: .7vw solid transparent;
+	border-right: .7vw solid transparent;
+	border-bottom: 1vw solid black;
 	background-color: transparent;
 	rotate: 90deg;
 	transition: all .3s ease-in;
@@ -318,13 +317,13 @@ p {
 .coverCard:hover .triangle {
 	opacity: 1;
 	transform: scale(1.1);
-	rotate: 90deg;
 	translate: -.1vw -.1vw;
 }
 
 .coverCard:hover {
 	transform: scale(1.08)
 }
+
 
 .coverCard>p {
 	font-size: .74vw;
