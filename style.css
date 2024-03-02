@@ -216,14 +216,17 @@ p {
 
 #leftChevron {
 	margin-left: 3%;
+	margin-top: 2%;
 }
 
 #rightChevron {
 	margin-left: 3%;
+	margin-top: 2%;
 }
 
 #premium {
 	margin-left: 59%;
+	margin-top: 2%;
 }
 
 #lineToDevide {
@@ -231,10 +234,12 @@ p {
 	height: 15px;
 	background-color: white;
 	margin-left: 4%;
+	margin-top: 2%;
 }
 
 #signUp {
 	margin-left: 5%;
+	margin-top: 2%;
 }
 
 #logIn {
@@ -243,8 +248,15 @@ p {
 	padding: .7vw 1.2vw;
 	border-radius: 1rem;
 	margin-left: 4%;
+		margin-top: 2%;
+		transition:all .2s ease-out;
 
 }
+
+#logIn:hover {
+	transform: scale(1.1)
+}
+
 
 #playlistCaption {
 	margin: 2.5% 4%;
