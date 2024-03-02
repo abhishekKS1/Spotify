@@ -1,32 +1,80 @@
 /* song playlist*/
 
 let playlistsObj = {
-	chillVibes: [
+
+	playlist1: [
 		{
-			name: "Lofi Hip-Hop",
-			path: "/Media/Playlist1/Chill Vibes - LoFi-HipHop Beat.m4a"
+			name: "Lofi Hip-Hop.m4a",
+			path: "Media/Playlist1/Chill Vibes - LoFi-HipHop Beat.m4a"
         },
 		{
-			name: "Justhea - Chill Vibes",
-			path: "/Media/Playlist1/Justhea - Chill Vibes.m4a"
+			name: "Justhea - Chill Vibes.m4a",
+			path: "Media/Playlist1/Justhea - Chill Vibes.m4a"
         },
 		{
-			name: "Summer Vibes - Chill Out Guitar",
-			path: "/Media/Playlist1/Summer Vibes - Chill Out Guitar.m4a"
+			name: "Chill Out Guitar.m4a",
+			path: "Media/Playlist1/Summer Vibes - Chill Out Guitar.m4a"
         }
     ],
-	partyMode: [
+	playlist2: [
 		{
-			name: "Disco Party by MokkaMusic",
-			path: "/Media/Playlist2/Disco Party by MokkaMusic.m4a"
-        },
+			name: "Disco Party.m4a",
+			path: "Media/Playlist2/Disco Party by MokkaMusic.m4a"
+            },
 		{
-			name: "Rock Sport Energetic - Party",
-			path: "/Media/Playlist2/Rock Sport Energetic - Party.m4a"
+			name: "Rock Sport Energetic.m4a",
+			path: "Media/Playlist2/Rock Sport Energetic - Party.m4a"
+            }
+    ],
+	playlist3: [
+		{
+			name: "UNTIL WE MEET AGAIN by Vyncke.m4a",
+			path: "Media/Playlist3/UNTIL WE MEET AGAIN by Arthur Vyncke.m4a"
+            }
+    ],
+	playlist4: [
+		{
+			name: "Upbeat Funk Podcast by Infraction.m4a",
+			path: "Media/Playlist4/Upbeat Funk Podcast by Infraction.m4a"
+                }
+        ],
+	playlist5: [
+		{
+			name: "DREAMCATCHER by Onycs.m4a",
+			path: "Media/Playlist5/DREAMCATCHER by Onycs.m4a"
+                    }
+            ],
+	playlist6: [
+		{
+			name: "And So It Begins.m4a",
+			path: "Media/Playlist6/And So It Begins.m4a"
+        }
+    ],
+	playlist7: [
+		{
+			name: "Miles Above You.m4a",
+			path: "Media/Playlist7/Miles Above You by JessePaulWarren  (Spektrem).m4a"
+        }
+    ],
+	playlist8: [
+		{
+			name: "Eternal Love by Twisterium.m4a",
+			path: "Media/Playlist8/Eternal Love by Twisterium .m4a"
+        }
+    ],
+	playlist9: [
+		{
+			name: "The Good Times.m4a",
+			path: "Media/Playlist9/The Good Times.m4a"
+        }
+    ],
+	playlist10: [
+		{
+			name: "It's been a while by Broke In Summer.m4a",
+			path: "Media/Playlist10/It's been a while by Broke In Summer.m4a"
         }
     ]
 };
-
 
 /*accessing elements*/
 
